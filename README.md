@@ -40,13 +40,14 @@ Walmart-Retail-Sales-Data-Analysis/
    ```bash
    git clone https://github.com/yourusername/Walmart-Retail-Sales-Data-Analysis.git
    cd Walmart-Retail-Sales-Data-Analysis
-Install dependencies
-    pip install -r requirements.txt
+
     
 Run the Streamlit app
-   streamlit run streamlitapp.py
+   
+streamlit run streamlitapp.py
    
 🧠 Model Description
+
 Algorithm: Random Forest Regressor
 
 Features used:
@@ -59,35 +60,38 @@ Target: Future Sales Value
 Model is trained using model_training.py and saved as sales_prediction_model.pkl.
 
 📊 Dashboard Features (Streamlit)
-Section             	         Description
-Predict Sales           -      Enter a product name and view predicted sales
-Top-Selling Products	  -      View highest-selling products by month
-Shipping Delay Analysis	-      Visualize delays by product category
+
+Predict Sales  
+
+Top-Selling Products	
+
+Shipping Delay Analysis	
 
 📈 Additional Analysis
-1. SARIMA Forecasting 
-Forecasts future sales using seasonal ARIMA time series modeling.
 
-Implemented in: Sarima_Forecasting.ipynb
+1. SARIMA Forecasting
+   
+- Forecasts future sales using seasonal ARIMA time series modeling.
+- Implemented in: Sarima_Forecasting.ipynb
 
 2. Power BI Dashboard
-Rich interactive dashboard to visualize key KPIs, product performance, and shipping trends.
-
-File: Power BI dashboard.pbix
+   
+- Rich interactive dashboard to visualize key KPIs, product performance, and shipping trends.
+- File: Power BI dashboard.pbix
 
 📦 Requirements
 These are the Python packages needed :
 
-streamlit
-pandas
-numpy
-scikit-learn
-joblib
-openpyxl
-matplotlib
-seaborn
-statsmodels
-pmdarima
+- streamlit
+- pandas
+- numpy
+- scikit-learn
+- joblib
+- openpyxl
+- matplotlib
+- seaborn
+- statsmodels
+- pmdarima
 
 
 👩‍💻 Author
