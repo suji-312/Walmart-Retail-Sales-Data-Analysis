@@ -20,15 +20,14 @@ This project includes:
 ## 📂 Project Structure
 
 Walmart-Retail-Sales-Data-Analysis/
-│
-├── streamlitapp.py # Streamlit web app
-├── model_training.py # Python script to train ML model
-├── sales_prediction_model.pkl # Trained model file
-├── walmart Retail Data.xlsx # Sales dataset
-├── Power BI dashboard.pbix # Power BI file
-├── Sarima_Forecast.ipynb #  SARIMA notebook
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+
+1. streamlitapp.py # Streamlit web app
+2. model_training.py # Python script to train ML model
+3. sales_prediction_model.pkl # Trained model file
+4.  walmart Retail Data.xlsx # Sales dataset
+5. Power BI dashboard.pbix # Power BI file
+6. Sarima_Forecast.ipynb #  SARIMA notebook
+7. README.md # Project documentation
 
 
 
@@ -44,28 +43,31 @@ Walmart-Retail-Sales-Data-Analysis/
     
 Run the Streamlit app
    
-streamlit run streamlitapp.py
+-  streamlit run streamlitapp.py
    
 🧠 Model Description
 
 Algorithm: Random Forest Regressor
 
-Features used:
-Product Category (encoded)
-Discount
-Shipping Delay
-Previous Sales Value
-Target: Future Sales Value
+- Features used:
+- Product Category (encoded)
+- Discount
+- Shipping Delay
+- Previous Sales Value
+- Target: Future Sales Value
 
 Model is trained using model_training.py and saved as sales_prediction_model.pkl.
 
+
 📊 Dashboard Features (Streamlit)
 
-Predict Sales  
+- Predict Sales  
 
-Top-Selling Products	
+- Top-Selling Products	
 
-Shipping Delay Analysis	
+- Shipping Delay Analysis	
+
+
 
 📈 Additional Analysis
 
